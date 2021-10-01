@@ -1,7 +1,7 @@
 package com.example.task_db.repositories;
 
-import com.example.task_db.models.Cities;
-import org.springframework.data.repository.CrudRepository;
+import com.example.task_db.models.City;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CityRepositories extends CrudRepository<Cities, Integer> {
+public interface CityRepositories extends JpaRepository<City, Integer> {
 }

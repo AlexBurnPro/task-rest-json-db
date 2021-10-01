@@ -1,19 +1,20 @@
 package com.example.task_db.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
-public class Cities {
+@Table(name = "cities", schema = "task_db")
+public class City {
 
     @Id
-    @GeneratedValue()
+    @GeneratedValue
+    @Column(name = "id")
     private Integer id;
 
+    @Column(name = "name")
     private String name;
 
-    public Cities() {
+    public City() {
     }
 
     public int getId() {
