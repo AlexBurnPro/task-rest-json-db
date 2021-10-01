@@ -1,3 +1,5 @@
+Test task: develop app on Spring Boot to access the DB, with REST API use json
+
 1.	На основе имеющейся ERD создать базу данных.
 2.	Внести тестовые данные(от 2 до 5 записей для таблицы).
 3.	Разработать приложение (SpringBoot)для доступак созданной базе данных с помощью Rest APIв формате json.
